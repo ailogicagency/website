@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Mail, MapPin, Send, DollarSign } from 'lucide-react';
-import { supabase } from '../lib/supabase';
+import { supabase } from './supabase';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
